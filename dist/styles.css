@@ -200,21 +200,21 @@ em { color: var(--blue-bright); font-style: normal; }
   .main-nav > a:not(.nav-cta) { padding: 10px 13px; border-radius: 999px; color: rgba(218,234,244,.76); }
   .main-nav > a:not(.nav-cta):hover { color: var(--blue-bright); background: rgba(148,221,250,.1); }
   .main-nav > a.is-current:not(.nav-cta) { color: var(--ink); background: var(--blue-bright); box-shadow: 0 0 0 1px rgba(148,221,250,.45), 0 0 18px rgba(148,221,250,.2); }
-  .nav-cta { margin-left: 4px; color: var(--ink); background: var(--lime); border-color: var(--lime); }
-  .nav-cta:hover { color: var(--ink); background: var(--white); border-color: var(--white); }
+  .nav-cta { margin-left: 4px; color: var(--white); background: var(--blue-deep); border-color: rgba(148,221,250,.55); border-radius: 999px; }
+  .nav-cta:hover { color: var(--ink); background: var(--blue-bright); border-color: var(--blue-bright); }
 }
 
-.brand-copy small { font-size: 9px; }
+.brand-copy small { font-size: 10px; }
 .eyebrow, .hero-meta { font-size: 11px; }
-.visual-caption, .stage-label, .heading-count small, .case-copy .case-type, .about-stamp small, .footer-label { font-size: 10px; }
-.orb-node, .scroll-cue, .signal-items, .stage-tag, .stage-footer, .form-note, .form-status, .footer-bottom { font-size: 10px; }
-.card-number, .card-link, .capability-index { font-size: 11px; }
-.stage-center span, .action-ring { font-size: 11px; }
+.visual-caption, .stage-label, .heading-count small, .case-copy .case-type, .about-stamp small, .footer-label { font-size: 11px; }
+.orb-node, .scroll-cue, .signal-items, .stage-tag, .stage-footer, .form-note, .form-status, .footer-bottom { font-size: 11px; }
+.card-number, .card-link, .capability-index { font-size: 12px; }
+.stage-center span, .action-ring { font-size: 12px; }
 .stat-item small { font-size: 12px; }
 .heading-aside p, .solution-card p, .case-copy > p:not(.case-type) { font-size: 14px; }
 .case-visual > span { font-size: 11px; }
-.about-facts span { font-size: 11px; }
-.contact-form label span { font-size: 11px; }
+.about-facts span { font-size: 12px; }
+.contact-form label span { font-size: 12px; }
 .footer-brand > p { font-size: 13px; }
 .footer-columns a { font-size: 14px; }
 .footer-columns p { font-size: 13px; }
@@ -223,6 +223,6 @@ em { color: var(--blue-bright); font-style: normal; }
   .main-nav { border: 0; border-radius: 0; box-shadow: none; }
   .main-nav > a:not(.nav-cta) { padding: 15px 0; border-radius: 0; background: transparent; font-size: 14px; }
   .main-nav > a.is-current:not(.nav-cta) { color: var(--blue-bright); background: transparent; box-shadow: none; }
-  .main-nav .nav-cta { color: var(--ink); background: var(--lime); border-color: var(--lime); }
-  .signal-items, .stage-footer, .case-copy .case-type, .case-copy .card-link { font-size: 10px; }
+  .main-nav .nav-cta { color: var(--white); background: var(--blue-deep); border-color: rgba(148,221,250,.55); border-radius: 999px; }
+  .signal-items, .stage-footer, .case-copy .case-type, .case-copy .card-link { font-size: 11px; }
 }
