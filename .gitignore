@@ -1,0 +1,19 @@
+# Cloudflare Wrangler local state
+.wrangler/
+.wrangler-npm-cache/
+
+# Local dependencies and environment files
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local reference-page snapshots
+明略科技-全球Agentic AI 第一股.html
+明略科技-全球Agentic AI 第一股_files/
